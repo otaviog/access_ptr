@@ -1,7 +1,7 @@
 # access_ptr: Memory accessors that look like Rust pointers for C++
 
 Experimeting with Rust give me a new view on programming. 
-One interisting aspect is that Rust's raw pointers aren't changed with aritimatic operators (`++`, `--`, `+`, `-`). 
+One interisting aspect is that Rust's raw pointers aren't changed with arithmetic operators (`++`, `--`, `+`, `-`). 
 This makes code that iterate over many pointers more readable, as we don't get confused by if the characters means an arithmetic or a pointer operation.
 Therefore, this small library aims to offer Rust like pointers for C++ for -- IMHO -- more readable code.
 The name accessor comes from Pytorch's C++ library, besides Rust like pointers, this library adds a second optional paramters specifying the stride size of the elements.
